@@ -1,0 +1,88 @@
+@import './modules/banner';
+@import './modules/footer';
+
+
+// 404 Error Page Styles
+// 404 Page
+.content-404-page {
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 75px;
+    margin-left: 70px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#sock-img {
+    padding-top: 50px; 
+    padding-right: 10px; 
+    display: flex; 
+    display: inline-block;
+    margin-left: 100px; 
+    max-width: 100%; 
+    height: auto;
+}
+
+#main-404 {
+    h1 { 
+        font-weight: 800;
+    padding: 5px;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .content-404-page {
+        margin-left: 100px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .content-404-page {
+        margin-left: 50px;
+        padding-top: 40px;
+    }
+    #main-404 {
+        h1 {
+        text-align: center;
+        }
+    }
+    #sock-img { 
+        margin-left: 50px;
+    }
+
+}
+@media screen and (max-width: 479px) {
+    #sock-img {
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        padding: 20px;
+    }
+    .content-404-page {
+        padding: 10px 30px 10px 10px;
+        margin-left: 40px;
+    }
+    #main-404 {
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+} 
+@media screen and (max-width: 370px)  {
+    #sock-img {
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        padding-top: 5px;
+    }
+    .content-404-page {
+        padding: 10px 30px 10px 10px;
+    }
+    #main-404 {
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}
